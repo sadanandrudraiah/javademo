@@ -25,8 +25,8 @@ public class StudentMaintDemo extends JFrame{
 		StudentCreatePanel createPanel = new StudentCreatePanel();
 		StudentDisplayPanel displayPanel = new StudentDisplayPanel();
 		
-		createPanel.add(new JButton("Create"));
-		displayPanel.add(new JButton("Back"));
+		//createPanel.add(new JButton("Create"));
+		//displayPanel.add(new JButton("Back"));
 		
 		cardLayout = new CardLayout();
 		homePanel = new JPanel();
